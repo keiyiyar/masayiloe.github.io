@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   jumpButton.addEventListener('click', function() {
     // 点击按钮时弹出确认框
-    const ready = confirm('准备好了吗？');
+    const ready = confirm('Are you ready?');
     
     // 如果点击了确认，则跳转到另一个网站
     if (ready) {
